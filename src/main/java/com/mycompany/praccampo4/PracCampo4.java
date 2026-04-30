@@ -25,6 +25,20 @@ public class PracCampo4 {
             System.out.println("Ingrese la carrera");
             String carrera=sc.nextLine();
 
-           
+            Estudiante e = new Estudiante();
+            e.setNommbre(nombre);
+            e.setMaterno(ape_materno);
+            e.setPaterno(ape_paterno);
+            e.setCarrera(carrera);
+            
+            System.out.println("Desea agregar más estudiantes si/no?");
+            rpta=sc.nextLine();
+        
+        
+            
+            control.agregar_estudiante(e);
+        }
+        System.out.println("La lista de estudiantes es: ");
+        control.listar_estudiantes();
 }
-}}
+}
