@@ -1,4 +1,4 @@
 public class Vehiculo {
     private String placa;
-    private String modelo;
+    private String añio;
 }
