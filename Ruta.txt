@@ -1,0 +1,6 @@
+public class Vehiculo {
+    private String origen;
+
+    // Cambio realizado en semana 3
+    // semana 3 - Ruth
+}
